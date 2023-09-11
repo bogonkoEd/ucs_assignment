@@ -71,7 +71,7 @@ def main():
     g.add_edge("ParkingLot", "Mada", 200)
 
     # Find the optimal path cost from "SportsComplex" to "Phase3" and the UCS tree
-    start_node = "SportsComplex"
+    start_node = "Siwaka"
     goal_node = "Mada"
     result, ucs_tree = ucs(g, start_node, goal_node)
 
